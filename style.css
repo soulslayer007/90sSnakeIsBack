@@ -1,0 +1,43 @@
+html{
+  height: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 150%;
+  background-image: linear-gradient(to bottom, rgba(99, 120, 238, 0.52), rgba(117, 19, 93, 0.73)),url(./images/mihaly-koles-KRsRzKJ_lTg-unsplash.jpg);
+  background-color: green;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+input {
+  font-size: 100%;
+  text-align: center;
+  padding: 5px 7px;
+}
+
+canvas {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 5px 6px black;
+  margin-right: 40px;
+}
+#score,#maxScore {
+  color: #fff333;
+  font-family: sans-serif;
+  margin-left: 50px;
+  background-color: #afd275;
+  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+#bgImageCredit{
+position: fixed;
+bottom: 0;
+right: 0;
+}
